@@ -1,25 +1,3 @@
-Please tell me **what** you want me to write in the correct format.
-
-Based on our previous conversation, you were asking about your `index.js` file, which was a loader for a remote script.
-
-Do you want me to:
-
-1.  **Write the `index.js` file for your Bwmxmd bot in the *correct, secure, and self-contained format*, by assuming the content of your *actual bot logic* (the one that was previously loaded remotely) should be put directly into it?** (This is the strong recommendation).
-    * **If yes, you MUST provide me with the content of that *remote JavaScript file* that your previous `index.js` was loading via `eval()`.** I cannot create your bot's core logic from scratch, as I don't know its features or commands.
-
-2.  **Write a `package.json` file in the correct format?** (We've already done this multiple times, but I can provide it again).
-
-3.  **Something else?**
-
-**Please clarify what "it" you want in the correct format.**
-
----
-
-**Assuming you want me to write your `index.js` in the *correct, secure, and self-contained format* for a Baileys bot, and you will provide the remote code:**
-
-Here's the template, **but it needs the content of your actual bot's logic from the remote script.**
-
-```javascript
 // index.js
 
 // [BWM-XMD QUANTUM EDITION]
@@ -150,5 +128,3 @@ async function startBwmxmdBot() {
 
 // Start the bot when the script runs
 startBwmxmdBot();
-
-```
